@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 400px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 6px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  background: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #357AE8;
+}
+#stopBtn {
+  background: #E53935;
+}
+#stopBtn:hover {
+  background: #C62828;
+}
+#resetBtn {
+  background: #FF9800;
+}
+#resetBtn:hover {
+  background: #FB8C00;
+}
+#copyAllBtn {
+  background: #4CAF50;
+}
+#copyAllBtn:hover {
+  background: #388E3C;
+}
+#status {
+  margin: 8px 0;
+  font-weight: bold;
+}
+.transcript-block {
+  margin: 10px 0;
+  padding: 6px;
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+.transcript-block pre {
+  white-space: pre-wrap;
+  font-size: 13px;
+  line-height: 1.4;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.transcript-block button {
+  margin-top: 5px;
+}
